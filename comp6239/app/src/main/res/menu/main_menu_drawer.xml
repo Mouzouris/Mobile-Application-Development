@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/ic_menu_edit_profile"
+            android:title="@string/menu_profile"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_my_lectures"
+            android:icon="@drawable/ic_menu_lectures"
+            android:title="@string/menu_lectures"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_search_tutors"
+            android:icon="@drawable/ic_menu_tutors"
+            android:title="@string/menu_tutors"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_requests"
+            android:icon="@drawable/ic_menu_requests"
+            android:title="@string/menu_requests"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_manage_subjects"
+            android:icon="@drawable/ic_menu_edit_profile"
+            android:title="@string/menu_subjects"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_approve_tutor"
+            android:icon="@drawable/ic_menu_approve"
+            android:title="@string/menu_approve"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_menu_message"
+            android:title="@string/menu_message"
+            android:visible="true"/>
+    </group>
+</menu>
